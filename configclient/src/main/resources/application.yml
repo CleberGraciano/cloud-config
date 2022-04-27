@@ -1,0 +1,15 @@
+server:
+  port: 8081
+test:
+  url:
+    http://noapplicationlocal:8080
+spring:
+  rabbitmq:
+    alternative-addresses: localhost:5672
+    alternative-virtual-host: /alternative
+    alternative-username: user
+    alternative-password: password
+    addresses: localhost:5672
+    virtual-host: /config
+    username: guest
+    password: guest
